@@ -3,10 +3,24 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomeComponent } from './home/home.component';
+import { ResumenComponent } from './resumen/resumen.component';
+import { VerempleadosComponent } from './verempleados/verempleados.component';
+import { LoginComponent } from './login/login.component';
+import { RegistroComponent } from './registro/registro.component';
+import { EmpleadosregisComponent } from './empleadosregis/empleadosregis.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    ResumenComponent,
+    VerempleadosComponent,
+    LoginComponent,
+    RegistroComponent,
+    EmpleadosregisComponent,
+    
   ],
   imports: [
     BrowserModule,
