@@ -9,6 +9,7 @@ import { VerempleadosComponent } from './verempleados/verempleados.component';
 import { LoginComponent } from './login/login.component';
 import { RegistroComponent } from './registro/registro.component';
 import { EmpleadosregisComponent } from './empleadosregis/empleadosregis.component';
+import { VerherramientasComponent } from './verherramientas/verherramientas.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { EmpleadosregisComponent } from './empleadosregis/empleadosregis.compone
     LoginComponent,
     RegistroComponent,
     EmpleadosregisComponent,
+    VerherramientasComponent,
     
   ],
   imports: [
