@@ -10,6 +10,9 @@ import { LoginComponent } from './login/login.component';
 import { RegistroComponent } from './registro/registro.component';
 import { EmpleadosregisComponent } from './empleadosregis/empleadosregis.component';
 import { VerherramientasComponent } from './verherramientas/verherramientas.component';
+import { DaraltaherramientaComponent } from './daraltaherramienta/daraltaherramienta.component';
+import { VerprestamosComponent } from './verprestamos/verprestamos.component';
+import { VerdetalleprestamosComponent } from './verdetalleprestamos/verdetalleprestamos.component';
 
 
 @NgModule({
@@ -22,6 +25,9 @@ import { VerherramientasComponent } from './verherramientas/verherramientas.comp
     RegistroComponent,
     EmpleadosregisComponent,
     VerherramientasComponent,
+    DaraltaherramientaComponent,
+    VerprestamosComponent,
+    VerdetalleprestamosComponent,
     
   ],
   imports: [

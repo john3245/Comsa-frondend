@@ -7,6 +7,10 @@ import { VerempleadosComponent } from './verempleados/verempleados.component';
 import { LoginComponent } from './login/login.component';
 import { RegistroComponent } from './registro/registro.component';
 import { EmpleadosregisComponent } from './empleadosregis/empleadosregis.component';
+import { VerherramientasComponent } from './verherramientas/verherramientas.component';
+import { DaraltaherramientaComponent } from './daraltaherramienta/daraltaherramienta.component';
+import { VerprestamosComponent } from './verprestamos/verprestamos.component';
+import { VerdetalleprestamosComponent } from './verdetalleprestamos/verdetalleprestamos.component';
 
 const routes: Routes = [
 
@@ -16,8 +20,10 @@ const routes: Routes = [
   {path : 'login',component: LoginComponent},
   {path : 'registro',component: RegistroComponent},
   {path : 'registroempleados',component: EmpleadosregisComponent},
-
-
+  {path : 'verherramientas',component: VerherramientasComponent},
+  {path : 'daraltaherramienta',component: DaraltaherramientaComponent},
+  {path : 'verprestamos',component: VerprestamosComponent},
+  {path : 'verdetalleprestamos',component: VerdetalleprestamosComponent},
 
 ];
 
