@@ -13,6 +13,9 @@ import { VerherramientasComponent } from './verherramientas/verherramientas.comp
 import { DaraltaherramientaComponent } from './daraltaherramienta/daraltaherramienta.component';
 import { VerprestamosComponent } from './verprestamos/verprestamos.component';
 import { VerdetalleprestamosComponent } from './verdetalleprestamos/verdetalleprestamos.component';
+import { DaraltaprestamosComponent } from './daraltaprestamos/daraltaprestamos.component';
+
+import { DaraltatipoherramientaComponent } from './daraltatipoherramienta/daraltatipoherramienta.component';
 
 
 @NgModule({
@@ -28,6 +31,9 @@ import { VerdetalleprestamosComponent } from './verdetalleprestamos/verdetallepr
     DaraltaherramientaComponent,
     VerprestamosComponent,
     VerdetalleprestamosComponent,
+    DaraltaprestamosComponent,
+   
+    DaraltatipoherramientaComponent,
     
   ],
   imports: [

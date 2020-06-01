@@ -11,6 +11,9 @@ import { VerherramientasComponent } from './verherramientas/verherramientas.comp
 import { DaraltaherramientaComponent } from './daraltaherramienta/daraltaherramienta.component';
 import { VerprestamosComponent } from './verprestamos/verprestamos.component';
 import { VerdetalleprestamosComponent } from './verdetalleprestamos/verdetalleprestamos.component';
+import { DaraltaprestamosComponent } from './daraltaprestamos/daraltaprestamos.component';
+import { DaraltatipoherramientaComponent } from './daraltatipoherramienta/daraltatipoherramienta.component';
+
 
 const routes: Routes = [
 
@@ -24,6 +27,8 @@ const routes: Routes = [
   {path : 'daraltaherramienta',component: DaraltaherramientaComponent},
   {path : 'verprestamos',component: VerprestamosComponent},
   {path : 'verdetalleprestamos',component: VerdetalleprestamosComponent},
+  {path : 'Daraltaprestamos',component: DaraltaprestamosComponent},
+  {path : 'Daraltatipoherramienta',component: DaraltatipoherramientaComponent},
 
 ];
 
